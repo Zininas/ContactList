@@ -36,16 +36,16 @@ final class DataStore {
     ]
     
     let emails = [
-        "1@mail.ru",
-        "2@mail.ru",
-        "3@mail.ru",
-        "4@mail.ru",
-        "5@mail.ru",
-        "6@mail.ru",
-        "7@mail.ru",
-        "8@mail.ru",
-        "9@mail.ru",
-        "10@mail.ru"
+        "1@gmail.com",
+        "2@gmail.com",
+        "3@gmail.com",
+        "4@gmail.com",
+        "5@gmail.com",
+        "6@gmail.com",
+        "7@gmail.com",
+        "8@gmail.com",
+        "9@gmail.com",
+        "10@gmail.com"
     ]
     
     let phones = [

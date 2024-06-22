@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct PersonView: View {
+    let person: Person
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            HStack {
+                Spacer()
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .padding()
+                Spacer()
+            }
+            
+            Label(person.phoneNumber, systemImage: "phone")
+            Label(person.email, systemImage: "tray")
+        }
+        .navigationTitle(person.fullName)
     }
 }
 
 #Preview {
-    PersonView()
+    PersonView(person: Person.getContactList().first!)
 }
